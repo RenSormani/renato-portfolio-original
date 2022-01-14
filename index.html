@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio webpage</title>
+    <script src="https://kit.fontawesome.com/46c646393a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#contact" class="logo"><img src="images/logo.svg" alt="Logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menu">
+            <li class="nav__item">
+                <a href="#about-me">ABOUT</a>
+            </li><li class="nav__item">
+                <a href="#experience">EXPERIENCE</a>
+            </li><li class="nav__item">
+                <a href="#work">WORK</a>
+            </li><li class="nav__item">
+                <a href="#contact">CONTACT</a>
+            </li>
+        </ul>
+    </header>
+
+    <section class="home__hero">
+        <div class="hero__container">
+            <div class="home__hero__title--p">
+                <h1 class="title">
+                    <span>Hi,</span>
+                    <span>I am</span>
+                    <span>Renato.</span>
+                </h1>
+                <p class="home__hero--p">
+                    <span>I love designing. I am training
+                    with _nology to become a superstar software 
+                    developer. Here's my portfolio...</span>
+                </p>
+            </div>
+            <div class="arrow-image">
+                <!-- Hidden on mobile -->
+                <img src="images/Arrows-iPad.svg" alt="Arrows" class="arrows-image-ipad">
+                <!-- Hidden on mobile & ipad-->
+                <img src="images/Arrows-home.svg" alt="Arrows" class="arrows-image-desktop">
+
+                <img src="images/main-image.svg" alt="Renato Sormani" class="main-image">
+                <!-- Hidden on mobile -->
+                <img src="images/Arrows-iPad.svg" alt="Arrows" class="arrows-image-ipad1">
+                <!-- Hidden on mobile & ipad-->
+                <img src="images/Arrows-home.svg" alt="Arrows" class="arrows-image-desktop1">
+            </div>
+            <div class="button-home-container">
+                <a href="#work" class="button button-accent button-home">Check out my work</a>
+            </div>
+        </div> 
+    </section>
+    
+
+    <section class="home__about">
+        <div id="about-me" class="home__about--all-text">
+            <div class="home__about--image1">
+                <img src="images/Arrows-About.svg" alt="Arrows" class="about-arrows">
+            </div>
+            <div class="home__about--title">
+                <h1 class="title-2 about-title">About me</h1>
+            </div>
+            <div class="home__about--textbox">
+                <p>Hello! My name is Renato Sormani and I love designing things for the internet!</p>
+                <p>I’ve always had a keen interest in design, spanning back to my days as a journalist on T3 and Football Italia, but even as a restaurateur, designing my restaurant’s website and menus.</p>
+                <p>I am currently studying at _nology and learning the ins and outs of everything web-related. Here are some of the technolgies I am working with:</p>
+                <p><strong>JavaScript (ES6), React, Firebase, SCSS, HTML, APIs and more.</strong></p>
+                    <div class="button-about-container">
+                        <a href="#contact" class="button button-accent button-about">Get in touch</a>
+                    </div>
+            </div>
+        </div>
+        <div class="home__about--image2">
+            <img src="images/Arrows-About.svg" alt="Arrows" class="about-arrows">
+        </div>
+        </section>
+    </section>
+
+    <section class="portfolio">
+        <div id="work" class="home__portfolio--title">
+            <h1 class="title-2">Portfolio</h1>
+        </div>
+
+        <!-- portfolio item 1-->
+    <div class="portfolio__grid">
+        <figure class="port__item">
+            <img src="images/football.jpg" alt="portfolio item" class="portfolio-image">
+            <figcaption class="port__description">
+                <p>FOOTBALL ITALIA</p>
+                <a href="" class="button button-accent button-small">Project details</a>
+            </figcaption>
+        </figure>
+
+        <!-- portfolio item 2-->
+        <figure class="port__item">
+            <img src="images/car.jpg" alt="portfolio item">
+            <figcaption class="port__description">
+                <p>TOP GEAR</p>
+                <a href="" class="button button-accent button-small">Project details</a>
+            </figcaption>
+        </figure>
+
+        <!-- portfolio item 3-->
+        <figure class="port__item">
+            <img src="images/travel.jpg" alt="portfolio item">
+            <figcaption class="port__description">
+                <p>TRAVEL MAGAZINE</p>
+                <a href="" class="button button-accent button-small">Project details</a>
+            </figcaption>
+        </figure>
+
+        <!-- portfolio item 4-->
+        <figure class="port__item">
+            <img src="images/gaming.jpg" alt="portfolio item">
+            <figcaption class="port__description">
+                <p>THE GADGET SHOW</p>
+                <a href="" class="button button-accent button-small">Project details</a>
+            </figcaption>
+        </figure>
+
+        <!-- portfolio item 5-->
+        <figure class="port__item">
+            <img src="images/restaurant.jpg" alt="portfolio item">
+            <figcaption class="port__description">
+                <p>THE RESTAURANT</p>
+                <a href="" class="button button-accent button-small">Project details</a>
+            </figcaption>
+        </figure>     
+
+        <!-- portfolio item 6-->
+        <figure class="port__item">
+            <img src="images/travel-2.jpg" alt="portfolio item">
+            <figcaption class="port__description">
+                <p>T3 MAGAZINE</p>
+                <a href="" class="button button-accent button-small">Project details</a>
+            </figcaption>
+        </figure>  
+    </div>
+        <div class="button-container">
+            <a href="" class="button button-accent button-portfolio">Full portfolio</a>
+        </div>
+    </div>
+    <div class="home__about--image">
+        <img src="images/Arrows-2.svg" alt="Arrows" class="arrows-image-1">
+    </div>
+    </section>
+
+    <section class="home__background">
+        <div id="experience" class="home__background--image1">
+            <img src="images/Arrows-About.svg" alt="Arrows" class="arrows-image-desktop2">
+        </div>
+            <div class="home__background--container">
+                <div class="home__background--title">
+                <h1 class="title-2">Experience</h1>
+                </div>
+                    <div class="home__background--textbox">
+                    <span><strong>MANAGING DIRECTOR</strong></span>
+                    <p>As Managing Director of my own restaurant, I was in charge of a team of 20, and responsible for everything to do with the business, from website and menu design, to HR. If there were transferrable competencies to be had I got them!</p>
+                    <span><strong>MANAGING EDITOR</strong></span>
+                    <p>As Managing Editor at Republic Publishing Ltd, I oversaw and maintained the editorial content for a number of websites, including The Gadget Show, Vodafone’s FoneHome and PriceRunner.</p>
+                        <div class="button-background-container">
+                        <a href="https://drive.google.com/file/d/1SutWy1uhTjlKnBEXcDFOeLUw3uZHx_E3/view?usp=sharing" class="button button-accent button-background">Click here for full CV</a>
+                    </div>
+                    <div class="home__background--image2">
+                        <img src="images/Arrows-About.svg" alt="Arrows" class="arrows-image-desktop3">
+                    </div>
+                </div>
+            </div>
+        <div class="home__background--image">
+            <img src="images/Arrows-2.svg" alt="Arrows" class="arrows-image-1">
+        </div>
+    </section>
+
+    <section class="container_contact_footer">
+        <section class="home__contact">
+            <div class="home__contact--image1">
+                <img src="images/Arrows-2.svg" alt="Arrows" class="arrows-image-1">
+            </div>
+            <div class="home__contact--title">
+                <h1 id="contact" class="title-2 contact-title">Contact me</h1>
+            </div>
+            <!-- // Image hidden from mobile version// -->
+            <div class="home__contact--image1">
+                <img src="images/Arrows-2.svg" alt="Arrows" class="arrows-image-1">
+            </div>
+            <!-- // Image hidden from tablet version// -->
+            <div class="home__contact--image">
+                <img src="images/Arrows-2.svg" alt="Arrows" class="arrows-image-2">
+            </div>
+            <div class="home__contact--image-reverse">
+                <img src="images/arrows-contact.svg" alt="Arrows" class="arrows-image-desktop-4">
+            </div>
+            <div class="home__contact--image-reverse">
+                <img src="images/arrows-contact.svg" alt="Arrows" class="arrows-image-desktop-5">
+            </div>
+            
+        </section>
+
+        <section class="contact__footer">
+            <div class="contact__text--email">
+                <div class="home__contact--textbox">
+                    <span><strong>GET IN TOUCH!</strong></span>
+                    <p>For freelance work or job enquiries, please get in touch. My inbox is always open! Whether you have a question or just want to say hi, I will endeavor to get back to you as soon as possible.</p>
+                </div>
+                <div class="home__contact--image2">
+                    <img src="images/Arrows-2.svg" alt="Arrows" class="arrows-image-3">
+                </div>
+                 <!-- // Image hidden from mobile version// -->
+            <div class="home__contact--image3">
+                <img src="images/arrows-contact.svg" alt="Arrows" class="arrows-image-4">
+            </div>
+            </div>
+            <div class="contact__footer__icons"><a href="https://github.com/RenSormani"><i class="fab fa-github" style="padding-left:27px; font-size:50px; color:white;"></i></a> 
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram" style="padding-left:27px; font-size:50px; color:white;"></i></a> 
+                    <a href="https://www.linkedin.com/in/renato-sormani-822081224/"><i class="fab fa-linkedin" style="padding-left:27px; font-size:50px; color:white;"></i></a> 
+                    <a href="https://twitter.com/renatosormani"><i class="fab fa-twitter-square" style="padding-left:27px; font-size:50px; color:white;"></i></a>
+            </div>
+        </section>
+    </section>
+    
+    <section class="contact__footer--email--copy">
+        <div class="contact__footer__email">
+            <b><p>RENATO.SORMANI@GMAIL.COM</p></b>
+        </div>
+            <div class="contact__footer__copyright">
+                <p>Renato Sormani  |  All rights reserved 2021</p>
+            </div>
+    </section>
+
+</body>
+</html>

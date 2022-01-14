@@ -1,2 +1,3 @@
 # renato-portfolio
-Renato Sormani's portfolio: the one-stop shop for my bestest projects and works.
+Renato Sormani's portfolio: creating my portfolio website was the initial challenge set up by _nology. The first half of the challenge was to create a preliminary wireframe design on Figma for desktop, mobile and tablet versions of the site. These can be found here:  https://www.figma.com/file/mxkDnyUjO2DKsc5EOzJsBZ/Portfolio-Mk-3?node-id=0%3A1
+The second half of the challenge was to create a fully-working, responsive version of the site, including everything I have learnt to this point, which includes using SCSS, BEM, Git, GitHub, etc.
