@@ -16,5 +16,5 @@ Build a fully functional portfolio using just HTML and CSS that can be progressi
 
 # My original portfolio
 
-<img width="357" alt="2022-03-11 (3)" src="https://user-images.githubusercontent.com/93707792/157878210-59d2f830-9da9-4d9c-9bb8-1b8ef83a1b3f.png">
+![original-portfolio](https://user-images.githubusercontent.com/93707792/189631444-cecc1c7c-b780-466a-92ed-27cf1f015028.jpg)
 
